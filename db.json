@@ -1,0 +1,54 @@
+{
+  "fruits": [
+    {
+      "offer_percentage": 20,
+      "image": "http://localhost:3001/assets/images/apple.webp",
+      "name": "Apple",
+      "previuse_price": 2,
+      "offer_price": 1.6
+    },
+    {
+      "offer_percentage": 20,
+      "image": "http://localhost:3001/assets/images/baby_spinach.webp",
+      "name": "Apple",
+      "previuse_price": 2,
+      "offer_price": 1.6
+    },
+    {
+      "offer_percentage": 20,
+      "image": "http://localhost:3001/assets/images/blueberries.webp",
+      "name": "Apple",
+      "previuse_price": 2,
+      "offer_price": 1.6
+    },
+    {
+      "offer_percentage": 20,
+      "image": "http://localhost:3001/assets/images/brussels_sprouts.webp",
+      "name": "Apple",
+      "previuse_price": 2,
+      "offer_price": 1.6
+    }
+  ],
+  "vegtables": [
+    { "name": "Apple" },
+    { "image": "/assets/Images/grocery_image_2.png" },
+    { "price": "80" }
+  ],
+  "offerscard": [
+    {
+      "image": "http://localhost:3001/assets/images/offercards/offer_card_1.webp"
+    },
+    {
+      "image": "http://localhost:3001/assets/images/offercards/offer_card_2.webp"
+    },
+    {
+      "image": "http://localhost:3001/assets/images/offercards/offer_card_3.webp"
+    },
+    {
+      "image": "http://localhost:3001/assets/images/offercards/offer_card_4.webp"
+    },
+    {
+      "image": "http://localhost:3001/assets/images/offercards/offer_card_5.webp"
+    }
+  ]
+}
