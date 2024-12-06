@@ -1,0 +1,17 @@
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+.card_wrap{
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+.card{
+    border-radius: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+    font-size: medium;
+}

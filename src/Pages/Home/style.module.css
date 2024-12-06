@@ -1,0 +1,97 @@
+.bg_img {
+    background-image: url('../../assets/images/grocery.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head_container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading{
+    margin: 5px;
+    font-size: 340%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+
+.sub_heading{
+  margin: 30px;
+  font-size: 130%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.input_container{
+  margin-top: 10px;
+}
+
+.input_box{
+  width: 70%;
+  height: 50px;
+  border: none;
+}
+
+.inpu_box:hover{
+  border: ipx solid var(--primary);
+}
+
+.input_btn{
+  background-color: var(--primary);
+  padding: 20px;
+  text-align: center;
+  width: 20%;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.sidemenu_cart_btn_container{
+  position: fixed;
+  top: 40%;
+  right:0%;
+}
+
+.sidemenu_cart_btn{
+  background-color: var(--primary);
+  font-size: medium;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 15px;
+  color: white;
+}
+
+.sidemenu_container{
+  position: fixed;
+  top: 0%;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 5px 5px 5px 5px;
+  transition: right 1s ease;
+  background-color: white;
+}
+
+.sidemenu_container.active{
+  right: 0;
+}
+
+.sidemenu{
+ padding: 10px;
+  border: 1px solid gray;
+}
+
+@media (max-width:1040px) {
+  .bg_img{
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.offercard_container{
+    /* border: 1px solid red; */
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.card_wrapp{
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: auto;
+    gap: 10px;
+}
+
+.scroll_btn{
+    border: none;
+    border-radius: 40px;
+    background-color: aliceblue;
+
+}
+
+.card{
+    padding: 10px;
+    /* border: 1px solid red; */
+}
