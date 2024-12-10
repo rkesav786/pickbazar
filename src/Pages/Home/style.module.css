@@ -75,6 +75,7 @@
   right: -400px;
   width: 400px;
   height: 100%;
+  z-index: 3;
   border: 1px solid gray;
   border-radius: 5px 5px 5px 5px;
   transition: right 1s ease;

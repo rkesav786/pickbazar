@@ -5,9 +5,7 @@ import { SlArrowLeft } from "react-icons/sl";
 
 const Offers = () => {
   const [data, setData] = useState([]);
-  const wrapcontainerRef = useRef(null); // Initialize the ref
-
-  console.log("data from json serve :", data);
+  const wrapcontainerRef = useRef(null);
 
   useEffect(() => {
     fetch("http://localhost:3001/offerscard")
@@ -18,7 +16,10 @@ const Offers = () => {
 
   const scrollLeft = (distance = 500) => {
     if (wrapcontainerRef.current) {
-      wrapcontainerRef.current.scrollBy({ left: -distance, behavior: "smooth" });
+      wrapcontainerRef.current.scrollBy({
+        left: -distance,
+        behavior: "smooth",
+      });
     }
   };
 

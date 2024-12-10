@@ -3,10 +3,11 @@ import style from "./style.module.css";
 import { TfiShoppingCartFull } from "react-icons/tfi";
 import { useRef } from "react";
 import Offers from "../Offers/Offers";
+import ProductCard from "../../Components/Widgets/ProductCard";
 
 export const Home = () => {
   const [isopen, Setsidemenu] = useState(false);
-  const sidemenuRef = useRef(null)
+  const sidemenuRef = useRef(null);
 
   const toggle = () => {
     Setsidemenu(!isopen);
@@ -52,7 +53,10 @@ export const Home = () => {
         </div>
 
         {isopen && (
-          <div ref={sidemenuRef} className={style.sidemenu_container+ " " + style.active}>
+          <div
+            ref={sidemenuRef}
+            className={style.sidemenu_container + " " + style.active}
+          >
             <div className={style.sidemenu}>
               <p>side menu</p>
             </div>
@@ -60,7 +64,10 @@ export const Home = () => {
         )}
       </div>
       <div>
-        <Offers/>
+        <Offers />
+      </div>
+      <div>
+        <ProductCard />
       </div>
     </>
   );
