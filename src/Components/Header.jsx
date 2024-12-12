@@ -27,24 +27,22 @@ const Header = () => {
           <div className={style.nav_right}>
             <ul className={style.menu_list}>
               <li className={style.display}>
-                <Link to="/shops">
+                <Link className={style.link} to="/shops">
                   <p>Shops</p>
                 </Link>
               </li>
               <li className={style.display}>
-                <Link to="/offers">
+                <Link className={style.link} to="/offers">
                   <p>Offercs</p>
                 </Link>
               </li>
               <li className={style.display}>
-                <Link to="/contact">
+                <Link className={style.link} to="/contact">
                   <p>Contact</p>
                 </Link>
               </li>
               <li className={style.display}>
-                {/* <Link to="/page"> */}
                 <p>Page</p>
-                {/* </Link> */}
               </li>
               <li>
                 <button className={style.header_btn}>Join</button>

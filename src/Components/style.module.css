@@ -35,8 +35,19 @@ body {
 }
 
 li {
-  list-style: none;
+  list-style: none !important
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
 
 li:hover {
   color: var(--primary);
@@ -75,7 +86,7 @@ li:hover {
 
 /* product list nav */
 
-.procudt_container {
+.product_container {
   display: flex;
   border: none;
   border-radius: 5px;
@@ -93,7 +104,7 @@ li:hover {
 /* product card */
 
 .card_container {
-  z-index: -1;
+  z-index: 1;
   padding: 30px;
   border-top: 1px solid gray;
   border-radius: 5px;
@@ -110,14 +121,20 @@ li:hover {
 }
 
 .card {
-  padding: 5px;
+  padding: 15px;
   border: 1px solid white;
-  border: 5px;
   width: 220px;
   height: 380px;
   position: relative;
   background-color: white;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 200px;
+  height: 200px; 
+  object-fit: cover;
 }
 
 .tag {
@@ -145,13 +162,20 @@ li:hover {
 .cart_btn {
   position: absolute;
   right: 3%;
-  border: 1px solid red;
-  border-radius: 15px;
+  border-radius: 25px;
   background-color: white;
-  padding: 5px;
+  border: .5px solid rgb(194, 190, 190);
+  color: var(--primary);
+  padding: 8px;
   align-items: center;
-  margin-right: 12px;
+  margin-right: 10px;
 }
+
+.cart_btn:hover{
+  background-color: var(--primary);
+  color: black;
+}
+
 
 @media (max-width: 1040px) {
   .productlist_nav_container {

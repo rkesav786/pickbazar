@@ -1,0 +1,62 @@
+.checkout_container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  gap: 20px;
+  height: 600px;
+  padding: 50px;
+}
+
+.form_container{
+  width: 600px;
+  margin-left: 90px;
+}
+
+.order_container{
+  width: 350px;
+  padding: 30px;
+}
+
+.formSection {
+  border: 1px solid #ccc;
+  padding: 40px;
+}
+
+.sectionTitle {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(43, 41, 41);
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.deliveryOption {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.optionTitle {
+  margin-top: 0;
+}
+
+.optionTime {
+  margin-bottom: 0;
+}
+
+.order_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.order_box{
+  padding: 10px;
+  width: 300px;
+  margin-top: 4px;
+ }
+ 

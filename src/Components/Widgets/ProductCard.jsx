@@ -15,9 +15,8 @@ import {
   RiHealthBookLine,
 } from "../Healper/Icon";
 
-const ProductCard = () => {
+const ProductCard = ({ onAddToCart }) => {
   const [products, setProducts] = useState([]);
-  console.log(products);
 
   const handleCategorySelect = async (category) => {
     const categoryProducts = await fetchProducts(category);
@@ -68,7 +67,7 @@ const ProductCard = () => {
   ];
 
   return (
-    <div className={style.procudt_container}>
+    <div className={style.product_container}>
       <div className={style.productlist_nav_container}>
         <nav>
           <ul>
@@ -97,14 +96,17 @@ const ProductCard = () => {
               )}
               <img src={item.image} alt={item.name} width={200} />
               <p>{item.name}</p>
-              {item.previuse_price && (
+              {item.previous_price && (
                 <p className={style.price}>
-                  <del>{item.previuse_price}</del>
+                  <del>{item.previous_price}</del>
                 </p>
               )}
               <p>{item.offer_price}</p>
               <div className={style.cart_btn_container}>
-                <button className={style.cart_btn}>
+                <button
+                  className={style.cart_btn}
+                  onClick={() => onAddToCart(item)}
+                >
                   <TfiShoppingCartFull />
                   <span>Cart</span>
                 </button>

@@ -1,35 +1,46 @@
-import React, { useState } from "react";
-import style from "./style.module.css";
+import React, { useState, useRef } from "react";
 import { TfiShoppingCartFull } from "react-icons/tfi";
-import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import Offers from "../Offers/Offers";
 import ProductCard from "../../Components/Widgets/ProductCard";
+import style from "./style.module.css";
 
 export const Home = () => {
-  const [isopen, Setsidemenu] = useState(false);
+  const [isOpen, setSidemenu] = useState(false);
+  const [cartItems, setCartItems] = useState([]);
   const sidemenuRef = useRef(null);
+  const navigate = useNavigate();
 
   const toggle = () => {
-    Setsidemenu(!isopen);
+    setSidemenu(!isOpen);
   };
 
   const handleClickOutside = (e) => {
     if (sidemenuRef.current && !sidemenuRef.current.contains(e.target)) {
-      Setsidemenu(false);
+      setSidemenu(false);
     }
   };
-  if (isopen) {
+
+  if (isOpen) {
     document.addEventListener("mousedown", handleClickOutside);
   } else {
     document.removeEventListener("mousedown", handleClickOutside);
   }
+
+  const handleAddToCart = (item) => {
+    setCartItems((prevItems) => [...prevItems, item]);
+  };
+
+  const handleGoToCheckout = () => {
+    navigate("/checkout", { state: { cartItems } });
+  };
 
   return (
     <>
       <div>
         <div className={style.bg_img}>
           <div className={style.head_container}>
-            <p className={style.heading}>Groceries Delivered in 90 Minute</p>
+            <p className={style.heading}>Groceries Delivered in 90 Minutes</p>
             <p className={style.sub_heading}>
               Get your healthy foods & snacks delivered at your doorsteps all
               day everyday
@@ -48,17 +59,37 @@ export const Home = () => {
           <button className={style.sidemenu_cart_btn} onClick={toggle}>
             <TfiShoppingCartFull />
             <span>Item</span>
-            <p>$0.00</p>
+            <p>
+              $
+              {Math.min(
+                999,
+                cartItems
+                  .reduce((total, item) => total + item.offer_price, 0)
+                  .toFixed(2)
+              )}
+            </p>
           </button>
         </div>
 
-        {isopen && (
+        {isOpen && (
           <div
             ref={sidemenuRef}
             className={style.sidemenu_container + " " + style.active}
           >
             <div className={style.sidemenu}>
-              <p>side menu</p>
+              <h3>Cart</h3>
+              {cartItems.length > 0 ? (
+                cartItems.map((item, index) => (
+                  <div key={index} className={style.cart_item}>
+                    <img src={item.image} alt={item.name} width={50} />
+                    <p>{item.name}</p>
+                    <p>${item.offer_price}</p>
+                  </div>
+                ))
+              ) : (
+                <p>Your cart is empty!</p>
+              )}
+              <button onClick={handleGoToCheckout}>Go to Checkout</button>
             </div>
           </div>
         )}
@@ -67,7 +98,7 @@ export const Home = () => {
         <Offers />
       </div>
       <div>
-        <ProductCard />
+        <ProductCard onAddToCart={handleAddToCart} />
       </div>
     </>
   );
