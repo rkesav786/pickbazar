@@ -96,6 +96,19 @@
   right: 0;
 }
 
+.checkout_btn_container{
+  padding: 10px;
+  margin-bottom: 0%;
+}
+
+.checkout_btn{
+  padding:8px;
+  color: white;
+  background-color: var(--primary);
+  border: 0.5px solid rgb(179, 176, 176);
+  border-radius: 40px;
+}
+
 .sidemenu{
  padding: 10px;
   border: 1px solid gray;

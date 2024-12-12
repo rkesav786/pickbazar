@@ -89,7 +89,14 @@ export const Home = () => {
               ) : (
                 <p>Your cart is empty!</p>
               )}
-              <button onClick={handleGoToCheckout}>Go to Checkout</button>
+              <div className={style.checkout_btn_container}>
+                <button
+                  className={style.checkout_btn}
+                  onClick={handleGoToCheckout}
+                >
+                  Go to Checkout
+                </button>
+              </div>
             </div>
           </div>
         )}
