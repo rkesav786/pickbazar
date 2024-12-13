@@ -32,6 +32,10 @@ const ProductCard = ({ onAddToCart }) => {
         "pet&care",
         "dairy",
         "cooking",
+        "beverage",
+        "health&beauty",
+        "breakfast",
+        "home&cleaning",
       ];
       const allProducts = await Promise.all(
         categories.map((category) => fetchProducts(category))
@@ -50,7 +54,7 @@ const ProductCard = ({ onAddToCart }) => {
     { label: "Meat & Fish", category: "meat&fish", icon: <TbMeatOff /> },
     { label: "Snacks", category: "snacks", icon: <SiDatadog /> },
     { label: "Pet Care", category: "pet&care", icon: <GiLiquidSoap /> },
-    { label: "Home & Cleaning", category: "home", icon: <LuMilk /> },
+    { label: "Home & Cleaning", category: "home&cleaning", icon: <LuMilk /> },
     { label: "Dairy", category: "dairy", icon: <LuCookingPot /> },
     { label: "Cooking", category: "cooking", icon: <GiRiceCooker /> },
     {

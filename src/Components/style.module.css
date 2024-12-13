@@ -149,7 +149,10 @@ li:hover {
 
 .price {
   font-weight: 300;
+  color: gray;
+  margin-top: 0%;
 }
+
 
 .cart_btn_container {
   display: flex;
