@@ -4,149 +4,149 @@
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/apple.webp",
       "name": "Apple",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 3,
+      "offer_price": 2.3
     },
     {
-      "offer_percentage": "18%",
+      "offer_percentage": "12%",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/baby_spinach.webp",
       "name": "Baby Spinach",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 2.5,
+      "offer_price": 1.8
+    },
+    {
+      "offer_percentage": "15%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/blueberries.webp",
+      "name": "Blueberries",
+      "previous_price": 4,
+      "offer_price": 3.2
+    },
+    {
+      "offer_percentage": "5%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/brussels_sprouts.webp",
+      "name": "Brussels Sprouts",
+      "previous_price": 2.5,
+      "offer_price": 1.8
+    },
+    {
+      "offer_percentage": "5%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/celery_sticks.webp",
+      "name": "Celery Sticks",
+      "previous_price": 1.5,
+      "offer_price": 1.2
+    },
+    {
+      "offer_percentage": "16%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/clementines.webp",
+      "name": "Clementines",
+      "previous_price": 2.5,
+      "offer_price": 1.8
+    },
+    {
+      "offer_percentage": "15%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/cucumber.webp",
+      "name": "Cucumber",
+      "previous_price": 3,
+      "offer_price": 2.3
     },
     {
       "offer_percentage": "10%",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/blueberries.webp",
-      "name": "Blueberries",
-      "previuse_price": 2,
-      "offer_price": 1.6
-    },
-    {
-      "offer_percentage": "",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/brussels_sprouts.webp",
-      "name": "Brussels Sprouts",
-      "previuse_price": 2,
-      "offer_price": 1.6
-    },
-    {
-      "offer_percentage": "",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/celery_sticks.webp",
-      "name": "Celery Sticks",
-      "previuse_price": 2,
-      "offer_price": 1.6
-    },
-    {
-      "offer_percentage": "",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/clementines.webp",
-      "name": "Clementines",
-      "previuse_price": 2,
-      "offer_price": 1.6
-    },
-    {
-      "offer_percentage": "",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/cucumber.webp",
-      "name": "Cucumber",
-      "previuse_price": 2,
-      "offer_price": 1.6
-    },
-    {
-      "offer_percentage": "",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/dates.webp",
       "name": "Dates",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 2,
+      "offer_price": 1.3
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "17%",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/french_green_beans.webp",
       "name": "French Green Beans",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 1.6,
+      "offer_price": 1.2
     },
     {
-      "offer_percentage": "",
-      "image": "http://localhost:3001/assets/images/fruits&vegetables/green_beans.webp.webp",
+      "offer_percentage": "10%",
+      "image": "http://localhost:3001/assets/images/fruits&vegetables/green_beans.webp",
       "name": "Green Beens",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 1.4,
+      "offer_price": 1.2
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "15%",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/green_limes.webp",
       "name": "Green Limes",
-      "previuse_price": 2,
-      "offer_price": 1.6
+      "previous_price": 2,
+      "offer_price": 1.5
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "10%",
       "image": "http://localhost:3001/assets/images/fruits&vegetables/mangoes.webp",
       "name": "Mongoes",
-      "previuse_price": 2,
+      "previous_price": 2,
       "offer_price": 1.6
     }
   ],
   "meat&fish": [
     {
-      "offer_percentage": "",
+      "offer_percentage": "14%",
       "image": "http://localhost:3001/assets/images/meat&fish/salmon.webp",
       "name": "Signature Salman",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "previous_price": 2.3,
+      "offer_price": 1.6
     },
     {
       "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/meat&fish/codfillet.webp",
       "name": "cod Fillet",
-      "previuse_price": 10.0,
+      "previous_price": 10.0,
       "offer_price": 7.5
     },
     {
       "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/meat&fish/beef.webp",
       "name": "Beef",
-      "previuse_price": 20.0,
+      "previous_price": 20.0,
       "offer_price": 10.5
     },
     {
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/meat&fish/chicken_thigh.webp",
       "name": "Chicken Thigh",
-      "previuse_price": 15.0,
+      "previous_price": 15.0,
       "offer_price": 12.0
     },
     {
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/meat&fish/chicken_brest.webp",
       "name": "Chicken Brest",
-      "previuse_price": 22.0,
+      "previous_price": 22.0,
       "offer_price": 17.0
     },
     {
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/meat&fish/halibut.webp",
       "name": "HaliBut",
-      "previuse_price": 11,
+      "previous_price": 11,
       "offer_price": 8.0
     },
     {
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/meat&fish/sliced_turkey.webp",
       "name": "Sliced Turkey",
-      "previuse_price": 10.0,
+      "previous_price": 10.0,
       "offer_price": 8.0
     },
     {
-      "offer_percentage": "20%",
+      "offer_percentage": "10%",
       "image": "http://localhost:3001/assets/images/meat&fish/steak.webp",
       "name": "Steak",
-      "previuse_price": 15.0,
+      "previous_price": 15.0,
       "offer_price": 12.0
     },
     {
-      "offer_percentage": "20%",
+      "offer_percentage": "24%",
       "image": "http://localhost:3001/assets/images/meat&fish/sword_fish.webp",
       "name": "Sword Fish",
-      "previuse_price": 13.0,
+      "previous_price": 13.0,
       "offer_price": 11.0
     }
   ],
@@ -155,223 +155,436 @@
       "offer_percentage": "",
       "image": "http://localhost:3001/assets/images/snacks/artiach_filipino.webp",
       "name": "Artiach Filipino",
-      "previuse_price": "",
+      "previous_price": 6.99,
       "offer_price": 4.95
     },
     {
       "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/snacks/belmont_custard.webp",
       "name": "Belmont Custard",
-      "previuse_price": 10.0,
+      "previous_price": 10.0,
       "offer_price": 7.5
     },
     {
       "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/snacks/cadbury_dairy.webp",
       "name": "Cadbury Dairy",
-      "previuse_price": 11.0,
+      "previous_price": 11.0,
       "offer_price": 8.8
     },
     {
       "offer_percentage": "10%",
       "image": "http://localhost:3001/assets/images/snacks/jammie_dodgers.webp",
       "name": "jammie_dodgers",
-      "previuse_price": 10.0,
+      "previous_price": 10.0,
       "offer_price": 7.5
     },
     {
       "offer_percentage": "5%",
       "image": "http://localhost:3001/assets/images/snacks/crawford_digestives.webp",
       "name": "Crawford Digestives",
-      "previuse_price": 14.0,
+      "previous_price": 14.0,
       "offer_price": 10.5
     },
     {
       "offer_percentage": "30%",
       "image": "http://localhost:3001/assets/images/snacks/hill_biscuits.webp",
       "name": "Hill Biscuits",
-      "previuse_price": 13.0,
+      "previous_price": 13.0,
       "offer_price": 11.9
     },
     {
       "offer_percentage": "17%",
       "image": "http://localhost:3001/assets/images/snacks/julis_cheese.webp",
       "name": "Julis Cheese",
-      "previuse_price": 15.0,
+      "previous_price": 15.0,
       "offer_price": 14.0
     },
     {
       "offer_percentage": "17%",
       "image": "http://localhost:3001/assets/images/snacks/khong_guan_premium.webp",
       "name": "Khong Guan Premium",
-      "previuse_price": 20.6,
+      "previous_price": 20.6,
       "offer_price": 18.7
     },
     {
       "offer_percentage": "17%",
       "image": "http://localhost:3001/assets/images/snacks/lotus_biscoff.webp",
       "name": "Lotus Biscoff",
-      "previuse_price": 16.0,
+      "previous_price": 16.0,
       "offer_price": 14.7
     }
   ],
   "pet&care": [
     {
-      "offer_percentage": "25",
+      "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/pet&care/dog_food_black_hawk_puppy_all_breeds.webp",
       "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "previous_price": 3,
+      "offer_price": 2.5
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "8%",
       "image": "http://localhost:3001/assets/images/pet&care/dog_food_hawk_adult_all_breeds.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Dog Food Adult All Breeds",
+      "previous_price": 5,
+      "offer_price": 4.2
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/pet&care/dog_food_hawk_puppy_large_breedchicken.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Dog Food Puppy large Breed Chicken",
+      "previous_price": 2.4,
+      "offer_price": 1.3
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "18%",
       "image": "http://localhost:3001/assets/images/pet&care/grain_free.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Grain Free",
+      "previous_price": 7,
+      "offer_price": 6.5
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/pet&care/hills_science_diet.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Hills Science Diet",
+      "previous_price": 8,
+      "offer_price": 7.3
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/pet&care/instinct_the_raw.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Instintc The Raw",
+      "previous_price": 13,
+      "offer_price": 10.4
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "25%",
       "image": "http://localhost:3001/assets/images/pet&care/prescription_diet.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Presciption",
+      "previous_price": 13,
+      "offer_price": 12.2
     },
     {
-      "offer_percentage": "25",
+      "offer_percentage": "16%",
       "image": "http://localhost:3001/assets/images/pet&care/pro_diet.webp",
-      "name": "Dog Food Puppy All Breeds",
-      "previuse_price": "",
-      "offer_price": 4.95
+      "name": "Pro Diet",
+      "previous_price": 14,
+      "offer_price": 12.4
     }
   ],
   "dairy": [
     {
-      "offer_percentage": "",
+      "offer_percentage": "14%",
       "image": "http://localhost:3001/assets/images/dairy/butter_barney.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter Barney",
+      "previous_price": 5.88,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "16%",
       "image": "http://localhost:3001/assets/images/dairy/butter_kirkland.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter Kirkland",
+      "previous_price": 5.32,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "18%",
       "image": "http://localhost:3001/assets/images/dairy/butter_nature.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter Nature",
+      "previous_price": 7.99,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "10%",
       "image": "http://localhost:3001/assets/images/dairy/butter_nikki.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter Nikki",
+      "previous_price": 5.5,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "22%",
       "image": "http://localhost:3001/assets/images/dairy/butter_tru_nut.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter",
+      "previous_price": 6.76,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "30%",
       "image": "http://localhost:3001/assets/images/dairy/salmon.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Salmon",
+      "previous_price": 5.9,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "22%",
       "image": "http://localhost:3001/assets/images/dairy/butter_whole_earth.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Butter Whole Earth",
+      "previous_price": 7.7,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "17%",
       "image": "http://localhost:3001/assets/images/dairy/egg_cavanagh.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Egg Cavanagh",
+      "previous_price": 7.5,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "11%",
       "image": "http://localhost:3001/assets/images/dairy/egg_clarenece_court.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Egg Clarence",
+      "previous_price": 5.7,
       "offer_price": 4.95
     }
   ],
   "cooking": [
     {
-      "offer_percentage": "",
+      "offer_percentage": "30%",
       "image": "http://localhost:3001/assets/images/cooking/oil_clover_valley.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Oil Clover Valley",
+      "previous_price": 6.3,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/cooking/oil_daisy.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Oil Daisy",
+      "previous_price": 5.0,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "10%",
       "image": "http://localhost:3001/assets/images/cooking/oil_goya.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Oil Goya",
+      "previous_price": 6.0,
       "offer_price": 4.95
     },
     {
-      "offer_percentage": "",
+      "offer_percentage": "20%",
       "image": "http://localhost:3001/assets/images/cooking/oil_san_lucas.webp",
-      "name": "Signature Salman",
-      "previuse_price": "",
+      "name": "Oil San Lucas",
+      "previous_price": 5.0,
       "offer_price": 4.95
     }
   ],
-  "vegtables": [
-    { "name": "Apple" },
-    { "image": "/assets/Images/grocery_image_2.png" },
-    { "price": "80" }
+  "home&cleaning": [
+    {
+      "offer_percentage": "13%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/acana_ozmo.webp",
+      "name": "Acana",
+      "previous_price": 6.0,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "11%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_freshner_febreze_air_effects.webp",
+      "name": "Freshner Febreze",
+      "previous_price": 7.0,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "10%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_freshner_febreze_air_hawaiian.webp",
+      "name": "Air Hawaian",
+      "previous_price": 6.0,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "20%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_freshner_febreze.webp",
+      "name": "Freshner Febreze",
+      "previous_price": 6.0,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "25%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_freshner_glade.webp",
+      "name": "Freshner Glade",
+      "previous_price": 5.09,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "35%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_freshner_johnson_glade.webp",
+      "name": "Air Freshner",
+      "previous_price": 5.87,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "8%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/air_wick_essential_oils.webp",
+      "name": "Essential Oils",
+      "previous_price": 5.99,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "38%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/ambipur_air_sweet_citrus.webp",
+      "name": "Sweet Citrus",
+      "previous_price": 6.99,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "40%",
+      "image": "http://localhost:3001/assets/images/home&cleaning/cleaning_supply_astonish.webp",
+      "name": "Supply Astonish",
+      "previous_price": 6.98,
+      "offer_price": 4.95
+    }
+  ],
+  "health&beauty": [
+    {
+      "offer_percentage": "30%",
+      "image": "http://localhost:3001/assets/images/health&beauty/attitude_night_bubble_bath.webp",
+      "name": "Bubble Bath ",
+      "previous_price": 6.09,
+      "offer_price": 5.76
+    },
+    {
+      "offer_percentage": "20%",
+      "image": "http://localhost:3001/assets/images/health&beauty/aveeno_baby_shampoo.webp",
+      "name": "Baby Shampoo",
+      "previous_price": 4.87,
+      "offer_price": 3.65
+    },
+    {
+      "offer_percentage": "10%",
+      "image": "http://localhost:3001/assets/images/health&beauty/eo_body_lotion.webp",
+      "name": "Body Lotion",
+      "previous_price": 9.08,
+      "offer_price": 8.67
+    },
+    {
+      "offer_percentage": "15%",
+      "image": "http://localhost:3001/assets/images/health&beauty/gnc_aloe_vera_moisturizing_cream.webp",
+      "name": "Moisturizing Cream",
+      "previous_price": 10.0,
+      "offer_price": 8.99
+    },
+    {
+      "offer_percentage": "20%",
+      "image": "http://localhost:3001/assets/images/health&beauty/moisturizing_hair_bath.webp",
+      "name": "Moisturizing",
+      "previous_price": 4.99,
+      "offer_price": 3.0
+    },
+    {
+      "offer_percentage": "17%",
+      "image": "http://localhost:3001/assets/images/health&beauty/neutrogena_body_oil.webp",
+      "name": "neutrogena oil",
+      "previous_price": 5.88,
+      "offer_price": 5.0
+    }
+  ],
+  "breakfast": [
+    {
+      "offer_percentage": "20%",
+      "image": "http://localhost:3001/assets/images/breakfast/bakery_danish_low_fat.webp",
+      "name": "Bakery Low Fat",
+      "previous_price": 6.99,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "25%",
+      "image": "http://localhost:3001/assets/images/breakfast/bakery_danish_soft_white_toastie.webp",
+      "name": "White Toastie",
+      "previous_price": 5.99,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "10%",
+      "image": "http://localhost:3001/assets/images/breakfast/bakery_soft_wholemeal_bread.webp",
+      "name": "Bakery Soft Wholemeal Bread",
+      "previous_price": 5.98,
+      "offer_price": 4.95
+    },
+    {
+      "offer_percentage": "30%",
+      "image": "http://localhost:3001/assets/images/breakfast/crunchy_original.webp",
+      "name": "Crunchy Original",
+      "previous_price": 4.09,
+      "offer_price": 3.88
+    },
+    {
+      "offer_percentage": "25%",
+      "image": "http://localhost:3001/assets/images/breakfast/multigrain_batch.webp",
+      "name": "Multigrain Batch",
+      "previous_price": 5.99,
+      "offer_price": 4.0
+    },
+    {
+      "offer_percentage": "14%",
+      "image": "http://localhost:3001/assets/images/breakfast/multigrain_batch.webp",
+      "name": "Multigrain Batch",
+      "previous_price": 6.0,
+      "offer_price": 5.09
+    },
+    {
+      "offer_percentage": "28%",
+      "image": "http://localhost:3001/assets/images/breakfast/roberts.webp",
+      "name": "Roberts",
+      "previous_price": 4.05,
+      "offer_price": 3.97
+    },
+    {
+      "offer_percentage": "23%",
+      "image": "http://localhost:3001/assets/images/breakfast/Wholemeal_Bread.webp",
+      "name": "Wholemeal Bread",
+      "previous_price": 8.0,
+      "offer_price": 7.6
+    },
+    {
+      "offer_percentage": "16%",
+      "image": "http://localhost:3001/assets/images/breakfast/wholemeal_mild_soft.webp",
+      "name": "Wholemeal Mild Soft",
+      "previous_price": 5.5,
+      "offer_price": 4.3
+    }
+  ],
+  "beverage": [
+    {
+      "offer_percentage": "28%",
+      "image": "http://localhost:3001/assets/images/beverage/dragon.webp",
+      "name": "Dragon",
+      "previous_price": 4.7,
+      "offer_price": 3.45
+    },
+    {
+      "offer_percentage": "32%",
+      "image": "http://localhost:3001/assets/images/beverage/iceland_tropical_juice_drink.webp",
+      "name": "Iceland Tropical Juice Drink",
+      "previous_price": 6.5,
+      "offer_price": 4.6
+    },
+    {
+      "offer_percentage": "40%",
+      "image": "http://localhost:3001/assets/images/beverage/javarama_classic.webp",
+      "name": "Javarama Classic",
+      "previous_price": "5.5",
+      "offer_price": 4.4
+    },
+    {
+      "offer_percentage": "23%",
+      "image": "http://localhost:3001/assets/images/beverage/starbucks_house_blend.webp",
+      "name": "Starbucks House Blend",
+      "previous_price": 5,
+      "offer_price": 3.5
+    },
+    {
+      "offer_percentage": "26%",
+      "image": "http://localhost:3001/assets/images/beverage/teeccino_herbal_coffee_alternative_almond_amaretto.webp",
+      "name": "Almond Amaretto",
+      "previous_price": 4.5,
+      "offer_price": 3.35
+    },
+    {
+      "offer_percentage": "29%",
+      "image": "http://localhost:3001/assets/images/beverage/dragon.webp",
+      "name": "Dragon",
+      "previous_price": 4.3,
+      "offer_price": 3.5
+    }
   ],
   "offerscard": [
     {
